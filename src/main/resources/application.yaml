@@ -1,0 +1,15 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+      url: jdbc:postgresql://localhost:5432/vzope
+      username: myuser
+      password: 123
+      driver-class-name: org.postgresql.Driver
+      initialization-mode: always
+  jpa:
+    properties:
+      hibernate:
+        ddl-auto: update
+        dialect: org.hibernate.dialect.PostgreSQL95Dialect
