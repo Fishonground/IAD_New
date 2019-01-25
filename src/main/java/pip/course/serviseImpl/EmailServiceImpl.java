@@ -18,11 +18,11 @@ public class EmailServiceImpl implements EmailService {
     public void sendSimpleMessage(
             String to, String subject, String text) {
 
-        to = "vasazopkin1@gmail.com";
-        subject = "Our coursach yobanniy rot";
-        String msg ="You have received this message from Idea becouse everyoneshould fuck jabber into all holes ";
-        final String from ="vasazopkin1@gmail.com";
-        final  String password ="80120000";
+        to = "..........";
+        subject = "Our coursach!";
+        String msg ="You have received this message from KURSAAACH";
+        final String from ="..........";
+        final  String password ="........";
         text = "";
 
 
